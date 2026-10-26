@@ -1,0 +1,8 @@
+{
+  "dataset": "label_traffic.csv",
+  "rows_scanned": 3121115,
+  "rows_sampled": 170000,
+  "feature_count": 57,
+  "trained_at": "2026-10-26T05:59:14.125721+00:00",
+  "algorithm": "IsolationForest"
+}

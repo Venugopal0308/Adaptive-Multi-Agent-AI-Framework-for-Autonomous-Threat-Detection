@@ -1,0 +1,29 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large source datasets: obtain them from their authorized sources.
+backend/data/raw/*.csv
+backend/data/raw/*.zip
+backend/data/raw/**/*.csv
+backend/data/raw/**/*.zip
+
+# Temporary files
+*.tmp
+*.log
