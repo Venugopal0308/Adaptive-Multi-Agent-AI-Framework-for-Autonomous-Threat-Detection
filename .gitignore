@@ -4,7 +4,7 @@ venv/
 .env
 .env.*
 !.env.example
-
+*.pyc
 # Python caches and test output
 __pycache__/
 *.py[cod]
